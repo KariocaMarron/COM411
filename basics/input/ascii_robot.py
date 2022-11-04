@@ -1,6 +1,9 @@
-# Display a box
-print("##########")
-print("#  o  o  #")
-print("#  ----  #")
-print("##########")
+# Display a face Robot
 
+
+print(""" 
+##########
+#  o  o  #
+#  ----  #
+##########
+""")
