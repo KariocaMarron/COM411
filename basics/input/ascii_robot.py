@@ -1,4 +1,4 @@
-# Display a face Robot
+# Display an ASCII art robot using a long string
 
 
 print(""" 
