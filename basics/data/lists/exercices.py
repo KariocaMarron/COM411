@@ -1,4 +1,14 @@
-my_lis = [6, 1, 9, 2]
+# Python program to explain os.listdir() method
 
-for new_indic in range(len(my_lis)):
-	print(new_indic, my_lis[new_indic])
+# importing os module
+import os
+
+# Get the list of all files and directories
+# in the root directory
+path = "/"
+dir_list = os.listdir(path)
+
+print("Files and directories in '", path, "' :")
+
+# print the list
+print(dir_list)
