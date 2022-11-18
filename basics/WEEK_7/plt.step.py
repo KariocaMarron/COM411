@@ -6,5 +6,5 @@ y = [0, 20, 40, 60, 80, 100]
 plt.xlabel("x values")
 plt.ylabel("y values")
 
-plt.step(x,y)
+plt.plot(x, y, 'yo')
 plt.show()
