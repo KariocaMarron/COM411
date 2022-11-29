@@ -1,22 +1,22 @@
-# Ask a user for a number
+# Ask a user for a name
 
 print("Please, enter your namer\n")
-name = str(input())
+name = str(input())  # saving name as string
 
-print("Enter a number\n")
-number = int(input())
+print("Enter a number\n")  # ask the user to enter a whole number
+number = int(input())  # Saving the whole number
 
 # Display relevant message
 
-if number % 2 != 0:
-    print(f"{name}, the Number {number} is an odd number")
+if number % 2 != 0:  # First condition
+    print(f"{name}, the Number {number} is an odd number")  # if ... Display the user entry
 
 else:
-    print(f'{name}, the Number {number} is an even numer')
+    print(f'{name}, the Number {number} is an even numer')  # else .... display user entry
 
 
 
-print(f"Program terminated. Thanks {name}\n\n\t\t\tEND")
+print(f"Program terminated. Thanks {name}\n\n\t\t\tEND")  # Final comment.
 
 
 
