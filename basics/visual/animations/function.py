@@ -11,11 +11,12 @@ number = int(input())
 if number % 2 != 0:
     print(f"{name}, the Number {number} is an odd number")
 
-elif number % 2 == 0:
+else:
     print(f'{name}, the Number {number} is an even numer')
 
-else:
-    print(f"This is not a whole numer {name}")
+
+print(f"Program terminated. Thanks {name}\n\n\t\t\tEND")
+
 
 
 
