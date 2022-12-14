@@ -1,18 +1,29 @@
-# Ask how many cables to remove
-print("How many cables should I remove?")
+# Transforming to a function
 
-# Defining variable iterations at initial value 0
-iterations = 0
+def cables():
 
-# Define variable amount_cab
-amount_cab = int(input())
+    # Ask how many cables to remove
+    print("How many cables should I remove?")
 
-print(f"\t\tStart removing ** {amount_cab} ** cables\n")
+    # Defining variable iterations at initial value 0
+    iterations = 0
 
-# Count how many cables user input
-while iterations < amount_cab:
+    # Define variable amount_cab
+    amount_cab = int(input())
 
-    iterations = iterations + 1
-    print("Cable removed\n")
+    print(f"\t\tStart removing ** {amount_cab} ** cables\n")
 
-print(f"All the **_ {amount_cab} _** cables were removed as requested!")
+    # Count how many cables user input
+    while iterations < amount_cab:
+
+        iterations = iterations + 1
+        print("Cable removed\n")
+
+
+
+    print(f"All the **_ {amount_cab} _** cables were removed as requested!")
+
+# Call the function
+cables()
+cables()
+cables()
