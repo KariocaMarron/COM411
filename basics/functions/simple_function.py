@@ -1,11 +1,12 @@
-def ascii_converter():
-    print("Program Started")
-    print("Please, enter an ASCii code")
+# Creat a function name listen with 0 parameters
 
-    code = int(input())
+def listen():
+    print("What sound did I hear?")
+    sound = input()
 
-    if code >= 32 and code <= 125:
-        print(f"The character represented by the {code} is: {chr(code)} ")
-        print("\n\n\t\t\tProgram Ending!!!")
+    print(f"That was a loud {sound}!")
 
-ascii_converter()  # Calling the function
+listen()
+listen()
+listen()
+
