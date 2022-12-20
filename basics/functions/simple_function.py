@@ -5,8 +5,5 @@ def listen():
     sound = input()
 
     print(f"That was a loud {sound}!")
-
-listen()
-listen()
 listen()
 

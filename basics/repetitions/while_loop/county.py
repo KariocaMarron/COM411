@@ -8,7 +8,8 @@ iterations = 1
 
 
 while iterations <= avoid_cables:
-    print(f"Avoing {iterations} Done!")
+    print(f"Avoiding {iterations} ", end="")
+    print("on the same line")
     iterations = iterations +1
 
 
