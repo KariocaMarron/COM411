@@ -3,7 +3,7 @@ print("How many live cables must I avoid?")
 
 avoid_cables = int(input())
 
-
+# Declaring a control variable
 iterations = 1
 
 

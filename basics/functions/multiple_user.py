@@ -2,7 +2,7 @@
 
 def display_box(name):
     message = f"* Hello {name} *"
-    print("*" * len(message))
+    print("=" * len(message))
     print(message)
     print("*" * len(message))
 

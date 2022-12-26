@@ -2,14 +2,14 @@ import os  # Load os library
 
 
 def cwd():
-    path = os.getcwd()
-    print(f"The current file path is {path}")
+    path = os.getcwd()  # variable path = os(operating system).GetCurrentWorkDirectory
+    print(f"The current file path is {path}")  # Command to display the path
     print("The directory contains contains the following files:")
-    for file in os.listdir(path):
-        print(file)
+    for file in os.listdir(path):  # Nested command to look for files in the previous path
+        print(file)  # Display files
 
 def run():
-    print("Processing...")
+    print("Processing...")  # this
     cwd()
 
 

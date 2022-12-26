@@ -5,4 +5,9 @@ import os
 
 # Get the list of all files and directories
 # in the root directory
-print(f"Current Working Directory: ", os.getcwd())
+
+file_path = os.getcwd()
+
+print(f"Current Working Directory: ")
+
+for file in os.listdir(path):

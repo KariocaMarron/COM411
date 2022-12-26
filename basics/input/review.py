@@ -1,6 +1,6 @@
 # Ask user for eye character
 print("Please enter an eye character:")
-eye = input()
+eye = input()  # Insert an character for the eye.
 
 # Ask user for the length of the glasses
 print("Please enter the length of the glasses:")
