@@ -7,10 +7,10 @@ print("Please enter the length of the glasses:")
 length = int(input())
 
 # Display ascii glasses
-print()
+print()  # To insert a space
 
-print(f"#########{' ' * length}#########")
+print(f"#########{' ' * length}#########")  # "{' ' * length} --> '  ' blank spaces to be left times
 print(f"#   {eye}   {'#' * (length + 2)}   {eye}   #")
-print(f"#########{' ' * length}#########")
+print(f"#########{' ' * length}#########
 
 print()
